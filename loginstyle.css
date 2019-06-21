@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1c232e; /*steam bg color*/
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+.navbar{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #171a21;
+}
+
+.navbar-logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 10%;
+}
+
+.navbar ul li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+ul{
+    padding-top: 1.25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    top: 85vh;
+    background-color: #171a21;
+    color: #b1e8ed;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #171a21;
+    text-align: center;
+}
+
+.login h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.login input[type="text"], .login input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.login img{
+    width: 200px;
+    height: 200px;
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus{
+    width: 280px;
+    border-color: #b1e8ed;
+}
+
+.login input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #b1e8ed;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover{
+    background: #b1e8ed;
+}

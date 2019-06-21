@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1c232e; /*steam bg color*/
+    height: 455vh;
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+.navbar{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #171a21;
+}
+
+.navbar-logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 10%;
+}
+
+.navbar ul li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+
+ul{
+    padding-top: 1.25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%
+}
+
+.parallax-container{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 25px;
+    height: 170vh;
+}
+
+.parallax{
+    min-height: 100vh;
+    width: 100%;
+    background: transparent;
+}
+
+.parallax-content{
+    height: 70vh;
+    width: 100%;
+}
+
+.parallax-content img{
+    width: 100%;
+}
+
+.big-poster{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.poster{
+    width: 100%;
+    height: 100%;
+}
+
+.poster img{
+    width: 100%;
+    height: 92.5%;
+    padding: 0;
+    margin: 0
+}
+
+.poster center{
+    height: 7.5%;
+    width: 100%;
+}
+
+.poster-description{
+    text-align: center;
+    color: #b1e8ed; /* steam price color */
+    font-size: 20px;
+}
+
+.hr-styling{
+    position: relative;
+    top: 105vh;
+    border: 2px solid #b1e8ed;
+}
+
+.picture-table{
+    position: relative;
+    width: 90%;
+    height: 140vh;
+    top: 105vh;
+    margin: 0 auto;
+}
+
+.table-image{
+    position: relative;
+    color: red;
+    width: 100%;
+    height: 90%;
+}
+
+td{
+    width: 25%;
+    height: 25%;
+}
+
+td img{
+    width: 100%;    
+    display: block;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    top: 130vh;
+    background-color: #171a21;
+    color: #b1e8ed;
+    text-align: center;
+    font-size: 25px;
+}
